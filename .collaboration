@@ -205,7 +205,16 @@
   },
   {
     "ModuleName": "PCPage/スタートページ",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\EmmaZhao",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-10-09T10:57:25.4249472+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\スタートページ.json"
+    ]
   },
   {
     "ModuleName": "PCPage/使い方",
