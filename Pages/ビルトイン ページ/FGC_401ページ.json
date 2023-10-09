@@ -1,0 +1,128 @@
+{
+  "Rows": {
+    "Count": 26
+  },
+  "Cols": {
+    "Count": 47
+  },
+  "Values": {
+    "5,12": "アクセス許可の問題",
+    "8,12": "このページを表示するアクセス許可がありません。",
+    "10,12": "可能性のある原因:",
+    "12,12": "ログイン中のユーザーは、要求に必要なアクセス権を持っていません。",
+    "14,12": "解決方法：",
+    "16,11": "1.",
+    "16,13": "一旦ログオフし、異なるアカウントでログインする",
+    "18,11": "2.",
+    "18,13": "Webブラウザーの戻るボタンをクリックして前ページに戻り、異なるリンクを試す",
+    "20,11": "3.",
+    "20,13": "管理者に問い合わせる"
+  },
+  "AttachInfos": {
+    "16,13": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "Text": "一旦ログオフし、異なるアカウントでログインする",
+        "ForguncyAttribute": "401Login"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 37.33333206176758,
+        "VerticalAlignment": 0
+      },
+      {
+        "VerticalAlignment": 0
+      },
+      {
+        "FontSize": 18.0,
+        "FontWeight": 1,
+        "VerticalAlignment": 0
+      },
+      {
+        "FontSize": 14.0,
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 0
+      },
+      {
+        "FontSize": 14.0,
+        "Foreground": 3,
+        "VerticalAlignment": 0,
+        "Underline": true
+      },
+      {
+        "FontSize": 14.0,
+        "VerticalAlignment": 0,
+        "WordWrap": true
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Top",
+        "Bold",
+        "Right",
+        "#FF0070C0",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "5,12": 0,
+      "8,12": 1,
+      "10,12": 2,
+      "12,12": 1,
+      "14,12": 2,
+      "16,11": 3,
+      "16,13": 4,
+      "18,11": 3,
+      "18,13": 5,
+      "20,11": 3,
+      "20,13": 5
+    },
+    "SheetStyle": {
+      "FontFamily": 4,
+      "Underline": false,
+      "Strikethrough": false
+    }
+  },
+  "Spans": [
+    "16,11,2,2",
+    "18,11,2,2",
+    "20,11,1,2",
+    "18,13,2,23",
+    "20,13,1,23",
+    "16,13,2,23",
+    "8,12,2,24",
+    "5,12,3,24",
+    "14,12,2,24",
+    "12,12,2,24",
+    "10,12,2,24"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "FGC_ユーザーマスターページ",
+    "Title": "401ページ",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "2e7e546e-a7f1-4e86-b8d4-dcb02575df77.png",
+      "StyleInfo": {
+        "Fill": "Background 1 -5",
+        "Stroke": "Background 1 -25",
+        "StrokeThickness": 1.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Location": "200,80",
+      "Size": "540,360"
+    }
+  ]
+}//wCoeB9j1lD9pTcNyi+D+TwlzMHD9wx9l0VY3SpIhdw5CC7qpLpIprkVjCBwYSvyU2JAKmB4oZPHPMzalK1tNcY96RNWFDHLKB2HrayvfWlj9BljZ0sUrqaEzjwLaXy/tZbXGVTb78LDRPgNJl3lPSDM/xkgk4Mes4HkO/BWFUo51G3eojdWoRxxE3OQ4IpPP56KybZYGIMtk5LsRaWh/93qA0VloMF8rhI7F9uWG/bbbqhcO23oE1VOPblQPixpFMuPOjp21ZWiPQH2Zd/8g8Bnl1NT8Qv94NhYyTvnlCx5b3F6q8/qJm5+k4XHQu1BR2MSM+qOtTGbZ1ObBJCUEKAAKLrb7jLlA5gqrA4jCE48QvrBcLBkzVGwZaz8PcR7snDqH7TX6/ENKg/p+FPeDjGuJByqhmCke/WwogFVKaOglFXuLSQDRo/Y5QrZcXI7WxGOMsbN0dBskmNWC1V80cHZFRQh1rTv2lnzixXFFvmGZyGn0f+cR0i//HK0NrkHmiGm+IJrGV6nl4Eb2ZqsMDu1eeAd6wHGQrxiAbnuN655EMQmgh4b0KRd5PI9awBDXNhDDCYDgd6GsguJ2QfZJ+H2IJ6leQKNFvnhNk7LHUBqYx/Pdjs4XjFL0HbEKXVfld6upLh8NQteqZLNeMyJfjM1FfbaPYj8olrMsPFjozO/0jTPaSfX0Hi60ioyfYtCMQQXLv7zjJ92lULg+NIr+W6peqZ36fiZFFapcpkOpvjy3HCwUrMU3IrgTBb/xwJcfVM5LtsyMkyv6ad37KpUgUhC5tx81Q3D+dRZyKRh1CD769/957MoXRKONikpiJTWwJJCoeLkBGhJv8WlK0Nq/5vloqCGxqje46GqeffXkNZ82Oz9FvxA1MQ/Y0RxcxSSw2PtWPff+AwU7IvWCqYP7gQ==|920

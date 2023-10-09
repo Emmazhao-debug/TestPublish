@@ -1,0 +1,83 @@
+{
+  "Name": "Vピボットグラフ",
+  "Columns": [
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Object",
+      "MaxLength": -1,
+      "Name": "分類",
+      "ColumnType": "System.Object, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
+      "MaxLength": -1,
+      "Name": "組織コード",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Int64",
+      "MaxLength": -1,
+      "Name": "科目",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Double",
+      "MaxLength": -1,
+      "Name": "年度",
+      "ColumnType": "System.Double, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Object",
+      "MaxLength": -1,
+      "Name": "月度",
+      "ColumnType": "System.Object, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Object",
+      "MaxLength": -1,
+      "Name": "会計月",
+      "ColumnType": "System.Object, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Int64",
+      "MaxLength": -1,
+      "Name": "金額",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    }
+  ],
+  "BuiltInViewInfo": {
+    "ViewName": "Vピボットグラフ",
+    "CreateViewSql": "SELECT '予算' as 分類,組織コード,科目,年度,4 as 月度,1 as 会計月,_4月 as 金額 FROM \"予算管理\"\r\nunion all\r\nSELECT '予算' as 分類,組織コード,科目,年度,5 as 月度,2 as 会計月,_5月 as 金額 FROM \"予算管理\"\r\nunion all\r\nSELECT '予算' as 分類,組織コード,科目,年度,6 as 月度,3 as 会計月,_6月 as 金額 FROM \"予算管理\"\r\nunion all\r\nSELECT '予算' as 分類,組織コード,科目,年度,7 as 月度,4 as 会計月,_7月 as 金額 FROM \"予算管理\"\r\nunion all\r\nSELECT '予算' as 分類,組織コード,科目,年度,8 as 月度,5 as 会計月,_8月 as 金額 FROM \"予算管理\"\r\nunion all\r\nSELECT '予算' as 分類,組織コード,科目,年度,9 as 月度,6 as 会計月,_9月 as 金額 FROM \"予算管理\"\r\nunion all\r\nSELECT '予算' as 分類,組織コード,科目,年度,10 as 月度,7 as 会計月,_10月 as 金額 FROM \"予算管理\"\r\nunion all\r\nSELECT '予算' as 分類,組織コード,科目,年度,11 as 月度,8 as 会計月,_11月 as 金額 FROM \"予算管理\"\r\nunion all\r\nSELECT '予算' as 分類,組織コード,科目,年度,12 as 月度,9 as 会計月,_12月 as 金額 FROM \"予算管理\"\r\nunion all\r\nSELECT '予算' as 分類,組織コード,科目,年度,1 as 月度,10 as 会計月,_1月 as 金額 FROM \"予算管理\"\r\nunion all\r\nSELECT '予算' as 分類,組織コード,科目,年度,2 as 月度,11 as 会計月,_2月 as 金額 FROM \"予算管理\"\r\nunion all\r\nSELECT '予算' as 分類,組織コード,科目,年度,3 as 月度,12 as 会計月,_3月 as 金額 FROM \"予算管理\"\r\nunion all\r\nSELECT \r\n  '実績' as 分類\r\n  ,組織コード\r\n  ,科目\r\n  ,年度\r\n  ,cast(strftime('%m',date((日付-25569)*60*60*24,'unixepoch'))  as numeric) as 月度\r\n  ,cast(strftime('%m',date((日付-25569)*60*60*24,'unixepoch'),'-3 months') as numeric) as 会計月\r\n  ,金額\r\nFROM \"実績管理\""
+  },
+  "Indexes": [],
+  "Relations": [
+    {
+      "PrimarySchema": null,
+      "PrimaryTable": "組織マスタ",
+      "PrimaryColumn": "組織コード",
+      "ForeignSchema": null,
+      "ForeignTable": "Vピボットグラフ",
+      "ForeignColumn": "組織コード",
+      "RelationTypeOnDelete": 0,
+      "RelationTypeOnUpdate": 0,
+      "IsDetailTableRelation": false
+    },
+    {
+      "PrimarySchema": null,
+      "PrimaryTable": "科目マスタ",
+      "PrimaryColumn": "科目コード",
+      "ForeignSchema": null,
+      "ForeignTable": "Vピボットグラフ",
+      "ForeignColumn": "科目",
+      "RelationTypeOnDelete": 0,
+      "RelationTypeOnUpdate": 0,
+      "IsDetailTableRelation": false
+    }
+  ]
+}

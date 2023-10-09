@@ -1,0 +1,64 @@
+{
+  "Rows": {
+    "Count": 38
+  },
+  "Cols": {
+    "Count": 55
+  },
+  "Values": {
+    "30,4": "このページはForguncyのビルトインページです。アプリケーションに合わせてカスタマイズが可能です。"
+  },
+  "AttachInfos": {
+    "4,4": {
+      "IsPlaceHolderCell": true
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 12.0,
+        "Foreground": 0,
+        "HorizontalAlignment": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Text 1 50",
+        "Center",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "30,4": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 2,
+      "Underline": false,
+      "Strikethrough": false
+    }
+  },
+  "Spans": [
+    "4,4,26,47",
+    "30,4,2,47"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon",
+    "PageLoadedCommandList": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "9d382752-f3ea-48a3-bb53-d6d47ed4c55a.png",
+      "StyleInfo": {
+        "Fill": "Accent 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "80,0",
+      "Size": "940,60"
+    }
+  ]
+}//J6xOHC67FjNe8MO/V4w+Wq2216n7LNz70nHuYt2gilIL1p/2ZLpsVRWZev8jhGjgCH8nvACHbMYz4lc2OyK/LarLwGBLxkJBFaEaPYPDrLFasUn3wOc+5o+YDt9NXTtYXRIVigVZNbXbDHYqjQa9pchxRQx7KV5zp76ZnEtwZnHYBbM7CQ2rM9Go0xs320vYMpf7RmVmQC76XzPfjIsYDgfsf4dRKaMWOgtIwnddk9/cRQAzRiAt+P9+zS8pYtb97FPBxV1P8nPt7NPOSdRStOcj3zxD9rIw6kOfMIpkXMfPLVEwwrL+ziT4Hd5+YXys8DKDla8q73/NW2nibWwhXY/+L6BVVu9bv8uQiVMTo4vTe6kPm6ZsoQdyga7tv0t7AYZhWAKXZoUWfrXlQEgE4EwjbsO6WUjRyxItJR1ylWdjTo3QEoZCDJ6DUvwBNr53f5vjw8Sf7rfbg7BMoW+WDwuu55qI8+MCtSzMHvhW33ltKHPMn+7V+vaZFbc6bOEpHu85ta7creFt3X2r/VT61Gk5DXOec6lp1mvgbOfbiQXJKn8wOYUohiUFTx0/Gip0GZp6lyL1jAwHgH1/hkyFvjTQ62jrWDu6Len2HmgsWAb/OpQzklysLnW0oDi2vdIrKbDZ3V/OIIIThIoCRH2GRvRt4Xyd0ZA3ehgFPGcUkheUoF7aDrQkLDki8XRysz8oGDzKHhF/lO4GWl3HJf8jLiizZJlRlafymlD6IfLAgfETHZokgLfPmKU+1/vjcYEsDWIHzx6gWLLsreSf9/FHdeQRwA8OFbxdtgX/tEzAcyNi0leKu7+hHoN/6WB/4YewGz/XMKKM27SvsShrrGYT8/cG/cA1tytaKI51tf+UMQ81hIxFpjjuASM0OqOI/jlVep5mmL2PVRaZv9qD7ZkJzQ==|920

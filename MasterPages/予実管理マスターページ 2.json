@@ -1,0 +1,317 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 9.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 22.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 7.0
+        }
+      }
+    },
+    "Count": 40
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "1,1": "Forguncy予実管理テンプレート"
+  },
+  "AttachInfos": {
+    "1,56": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "使い方",
+            "IgnoreTargetPageCachedCurrentRowInfo": false
+          }
+        ],
+        "ImagePath": "Mobile/453_help_2.svg",
+        "BuiltIn": true,
+        "Color": "Accent 1"
+      }
+    },
+    "4,0": {
+      "IsPlaceHolderCell": true
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 29.33333396911621,
+        "FontWeight": 0,
+        "Foreground": 1,
+        "Formatter": 2,
+        "HorizontalAlignment": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 29.33333396911621,
+        "FontWeight": 0,
+        "Foreground": 4,
+        "Formatter": 2,
+        "HorizontalAlignment": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": 5,
+        "FontSize": 13.333333015441895,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": 5,
+        "FontSize": 13.333333015441895,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null
+      },
+      {
+        "Background": 5,
+        "FontFamily": 6,
+        "FontSize": 13.333333015441895,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": 5,
+        "FontFamily": 6,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": 5,
+        "FontSize": 13.333333015441895,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": 7,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "Accent 4 0",
+        "[AUTO]General",
+        "Left",
+        "#FF31869B",
+        "#FFEEECE1",
+        "Body",
+        "#FFD3D3D3"
+      ]
+    },
+    "CellStyles": {
+      "0,8": 0,
+      "0,19": 0,
+      "0,42": 0,
+      "0,52": 0,
+      "0,53": 0,
+      "0,54": 0,
+      "0,55": 0,
+      "0,56": 1,
+      "0,57": 1,
+      "0,58": 1,
+      "0,59": 0,
+      "1,1": 2,
+      "1,2": 3,
+      "1,3": 3,
+      "1,4": 3,
+      "1,5": 3,
+      "1,6": 3,
+      "1,7": 3,
+      "1,8": 3,
+      "1,9": 3,
+      "1,10": 3,
+      "1,11": 3,
+      "1,12": 3,
+      "1,13": 3,
+      "1,14": 3,
+      "1,15": 3,
+      "1,16": 3,
+      "1,17": 3,
+      "1,18": 3,
+      "1,19": 3,
+      "1,20": 3,
+      "1,21": 3,
+      "1,22": 3,
+      "1,23": 3,
+      "1,24": 3,
+      "1,25": 3,
+      "1,49": 4,
+      "1,50": 4,
+      "1,51": 4,
+      "1,52": 4,
+      "1,53": 4,
+      "1,54": 4,
+      "1,55": 5,
+      "1,56": 6,
+      "1,57": 7,
+      "1,58": 7,
+      "1,59": 8,
+      "2,0": 0,
+      "2,1": 3,
+      "2,2": 3,
+      "2,3": 3,
+      "2,4": 3,
+      "2,5": 3,
+      "2,6": 3,
+      "2,7": 3,
+      "2,8": 3,
+      "2,9": 3,
+      "2,10": 3,
+      "2,11": 3,
+      "2,12": 3,
+      "2,13": 3,
+      "2,14": 3,
+      "2,15": 3,
+      "2,16": 3,
+      "2,17": 3,
+      "2,18": 3,
+      "2,19": 3,
+      "2,20": 3,
+      "2,21": 3,
+      "2,22": 3,
+      "2,23": 3,
+      "2,24": 3,
+      "2,25": 3,
+      "2,26": 0,
+      "2,27": 0,
+      "2,28": 0,
+      "2,29": 0,
+      "2,30": 0,
+      "2,31": 0,
+      "2,32": 0,
+      "2,33": 0,
+      "2,34": 0,
+      "2,35": 0,
+      "2,36": 0,
+      "2,37": 0,
+      "2,38": 0,
+      "2,39": 0,
+      "2,51": 0,
+      "2,52": 0,
+      "2,53": 0,
+      "2,54": 0,
+      "2,55": 9,
+      "2,56": 7,
+      "2,57": 7,
+      "2,58": 7,
+      "2,59": 10,
+      "3,8": 0,
+      "3,19": 0,
+      "3,42": 0,
+      "3,52": 0,
+      "3,53": 0,
+      "3,54": 0,
+      "3,55": 0,
+      "3,56": 11,
+      "3,57": 11,
+      "3,58": 11,
+      "3,59": 0,
+      "4,0": 12,
+      "39,8": 0,
+      "39,19": 0,
+      "39,42": 0,
+      "39,52": 0,
+      "39,53": 0,
+      "39,54": 0,
+      "39,55": 0,
+      "39,56": 0,
+      "39,57": 0,
+      "39,58": 0,
+      "39,59": 0
+    },
+    "RowStyles": {
+      "0": 13,
+      "1": 13,
+      "2": 13,
+      "3": 13
+    },
+    "SheetStyle": {
+      "FontFamily": 6,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,1,2,25",
+    "4,0,35,60",
+    "1,56,2,3"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon",
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//e1puQQeLV2c0f2Q3VaBTMOXI8CEPNcb/FVHfIiCMWlDXBinHg1G3KI9tFIbx2GUKO4xtlEqekkbIddBg42+41j2lm//o9RPeOTitkxh2PT26VPCNsLVHjPJT/pHfHO/CcCN3klM9TXx9r7K0fNco7Xs8vdbDfUlMEdvWTsBvZruJhGesabjDsvsWd+mTwIZDY2RFErUASkTmWAhx7riUAe1USjH2aRUZyny18VP/r/Rr7d12prySL/ubBxwY6foZML+/UD7h0K2H+PxnE+uTWLcOw74A1VkYcME9XApL0EIrt+/grsR7pYULWzavMHyy4BcRmdWqZ86z1/8HM69Wb5rbQikcZm6+Tit7VY6Tr7WxF1D8ToZrUkwkDkLBSt3bB2/56RxwopEWOG/wTCIyjz258yHiI40fRVqYJt5EK/xwJK7LMbPjK8HIesMKKqpF2sMpMOqQ3ZTzVAsKiYPZACUk9un+fCPSDjKS/0oFKXqOlCB7AoKMySvD94T/OgFnw6qWLHGDnfzgNV2PQMjd/yEp4mtqDipcdqKQAqMWag5SZXuUM5iDLg6Hc4+Y7yAO8U3xP5G0njjYzDT0vNGWUiBURsp0UsAN+oIx6U99XGpuBU0Llnbqf3HS9+6SFT5Is/BtQkOiYURl9ayDPwGSDkxnPaTupGhr4IncG4Ypj31uEG6cpPPyjraX9zyoPmUbUhwixWOPMPqLnowJFL3knEymRmdK8wTTe8fijIddLZifu+W8jKdBjgUVRgSGr76vW79MOfbSoU7fB7YzUbO7lmG6zSmwqFkupRJ9pBl3XRA4N5VU8AUTKtIfEhUsyPS5dZdNDmqSJfPfBF84NPFvBhuhgmjPNojYfbZFvuG3XK4YkSsaTPM9hmAT/HmZAVUsjTMXI6vV30uo1BvMr3n4wQ==|920
